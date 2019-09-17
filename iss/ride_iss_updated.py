@@ -26,6 +26,6 @@ def main():
     people = helmetson['people']
     #print(people)
     for item in people:
-        print(item['name']+" on the ISS")
+        print(item['name']+" on the "+ item['craft'])
 
 main() 
